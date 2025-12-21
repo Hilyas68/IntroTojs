@@ -64,4 +64,5 @@ const name = user.name;
 const city = user.city;
 
 console.log(`My names is ${name} and I live in ${city}`);
+console.log(`My names is ${name} and I live in ${city}`);
 
