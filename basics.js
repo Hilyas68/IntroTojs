@@ -41,5 +41,3 @@ console.log(greet("Alice"));
 console.log(multiply(2, 3));
 console.log(doubleValue(5));
 console.log("Not a Number example:", notANumber);
-console.log("Not a Number example:", notANumber);
-console.log("Not a Number example:", notANumber);
