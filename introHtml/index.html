@@ -10,29 +10,43 @@
 
 <body>
     <div class="profile">
-        <h1>Student Profile</h1>
-        <h2>Jane Doe</h2>
-        <img src="img/profile.png" width="250px" height="200px">
-        <h3>About Me</h3>
-        <p>Hello! My name is Jane Doe. I am a computer science student with a passion for web development and
-            programming.</p>
-        <h3>Contact Details</h3>
-        <ul>
-            <li>Email Address: <a href="mailto:whatever@gmail.com"> whatever@gmail.com </a></li>
-            <li>Location: Somewhere</li>
-            <li>Phone Number: 555-5555</li>
-        </ul>
-
-        <h3>Courses</h3>
-        <ul>
-            <li>Introduction to Programming</li>
-            <li>Web Development Fundamentals</li>
-            <li>Data Structures and Algorithms</li>
-        </ul>
-
-        <h3>Favourite Learning Resources</h3>
-        <p>I enjoy Learning from <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
-        </p>
+        <div class="profile-header">
+            <div class="profile-text">
+                <h1>Student Profile</h1>
+                <h2>Jane Doe</h2>
+            </div>
+            <img src="img/profile.png" width="250px" height="200px">
+        </div>
+        <div class="profile-main">
+            <section class="about">
+                <h3>About Me</h3>
+                <p>Hello! My name is Jane Doe. I am a computer science student with a passion for web development and
+                    programming.</p>
+            </section>
+            <div class="info-row">
+                <section class="contact">
+                    <h3>Contact Details</h3>
+                    <ul>
+                        <li>Email Address: <a href="mailto:whatever@gmail.com"> whatever@gmail.com </a></li>
+                        <li>Location: Somewhere</li>
+                        <li>Phone Number: 555-5555</li>
+                    </ul>
+                </section>
+                <section class="courses">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>Introduction to Programming</li>
+                        <li>Web Development Fundamentals</li>
+                        <li>Data Structures and Algorithms</li>
+                    </ul>
+                </section>
+            </div>
+            <section class="resources">
+                <h3>Favourite Learning Resources</h3>
+                <p>I enjoy Learning from <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a>
+                </p>
+            </section>
+        </div>
     </div>
 </body>
 
